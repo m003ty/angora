@@ -1,0 +1,47 @@
+#client .section-title{
+    max-width: 700px;
+    margin: auto;
+}
+
+#client hr{
+    width: 50px;
+    margin: 20px auto;
+}
+
+#client img{
+    width: 110px;
+    height: 110px;
+    transition: .3s all;
+}
+
+#client img.active{
+    width: 140px;
+    height: 140px;
+}
+
+.carousel-indicators{
+    min-height: 200px;
+}
+
+.carousel-indicators .item{
+    padding: 0 20px;
+}
+
+.single-box p{
+    max-width: 400px;
+    margin: auto;
+}
+
+.client-info h3 {
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0;
+}
+
+.client-info{
+    display: none;
+}
+
+.carousel-indicators img.active:first-of-type + div{
+    display: block;
+}
